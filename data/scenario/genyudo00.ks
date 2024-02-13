@@ -36,7 +36,7 @@
 [chara_show name="alice" time="1000" left="272" top="-25" width="1000" height="1298" ]
 
 #旅人
-噂通りだ…こりゃひどい。[p]
+噂通り…こりゃひどいな。[p]
 
 [free name="chara_name_area" layer="message0"]
 
@@ -46,7 +46,7 @@
 [ptext name="chara_name_area" layer="message0" color="white" size=28 bold="bold" x=180 y=510]
 
 #旅人
-「こんな時期に限らず、いつだってこんなことにはならないはずなのに。」[p]
+「一昔前までの宝石港はこうじゃなかったんだけどな...」[p]
 
 [free name="chara_name_area" layer="message0"]
 
@@ -54,4 +54,6 @@
 
 [layopt layer=message0 visible=false]
 
-[jump storage="title.ks" ]
+[chara_hide name="alice" time="0" wait="false" pos_mode="false"]
+
+[jump storage="genyudo01.ks" ]
