@@ -17,4 +17,4 @@
 
 *gamestart
 ;一番最初のシナリオファイルへジャンプする
-@jump storage="demoyudo1.ks"
+@jump storage="genyudo00.ks"
